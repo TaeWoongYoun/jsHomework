@@ -22,14 +22,34 @@
 
 // 이름찾기('재석');
 
-var 출석부 = ['흥민', '영희', '철수', '재석'];
+// var 출석부 = ['흥민', '영희', '철수', '재석'];
 
-function 이름찾기(name){
-    for (var i = 0; i < 4; i++) {
-        if ( name == 출석부[i]) {
-            console.log('있어요');
-        }
+// function 이름찾기(name){
+//     for (var i = 0; i < 4; i++) {
+//         if ( name == 출석부[i]) {
+//             console.log('있어요');
+//         }
+//     }
+// }
+
+// 이름찾기('철수');
+
+// Q. 갑자기 구구단을 콘솔창에 출력하고 싶습니다.
+// 철수는 구구단을 외우지 못하는 관계로
+// 자바스크립트를 이용해 구구단을 2단부터 9단까지 콘솔창에 출력하고 싶어졌습니다.
+// 빨리 출력해보십시오. 
+    // console.log(2);
+    // console.log(4);
+    // console.log(6);
+    // console.log(8);
+    // console.log(10);
+    // console.log(12);
+    // console.log(14);
+    // console.log(16);
+    // console.log(18);
+
+
+
+    for (var i = 2; i < 10; i++){
+        console.log(i);
     }
-}
-
-이름찾기('철수');
